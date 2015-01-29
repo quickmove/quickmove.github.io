@@ -1,0 +1,53 @@
+<html>
+<head>
+	<style>
+	.bitbox {
+		font-family: Arial;
+		font-size: 8pt;
+		line-height:20px;
+		text-align:center;
+		color:#ffffff;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #dddddd;
+		width: 20px;
+		height:20px;
+		float:left;
+		margin: 2px;
+	}
+	.bitsetb {
+		background-color: #EE3333;
+	}
+	.bitclr {
+		background-color: #3333EE;
+	}
+	</style>
+	<script language="javascript">
+	    function filterInput(vv){
+	        vv.value = vv.value.replace(/[^0-9a-fA-F]/g,"");
+	        vv.value = vv.value.toUpperCase();
+	    }
+
+		function bitshow(c) {
+			
+			var bitbox = '';
+			for(var i = 7; i >= 0; i--) {
+				var bit = c >> i & 0x01;
+				if(bit > 0)
+					bitbox += '<div class="bitbox bitsetb">'+i+'</div>';
+				else
+					bitbox += '<div class="bitbox bitclr">'+i+'</div>';
+				if(i == 4)
+					bitbox += '<div style="float:left;">&nbsp;</div>';
+			}
+			var oo = document.getElementById("omg");
+			oo.innerHTML = bitbox;
+		}
+		
+	</script>
+</head>
+<body onload="bitshow(document.getElementById('testbox').value);">
+	<input id="testbox" type="text" value="41" size=2 maxlength=2 onkeyup="filterInput(this);bitshow(this.value)">
+	<div id="omg"></div>
+</body>
+</html>
