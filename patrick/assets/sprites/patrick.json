@@ -1,0 +1,95 @@
+{"frames": {
+
+"Patrick_01.png":
+{
+	"frame": {"x":34,"y":140,"w":25,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":49},
+	"sourceSize": {"w":25,"h":49}
+},
+"Patrick_02.png":
+{
+	"frame": {"x":22,"y":93,"w":24,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":47},
+	"sourceSize": {"w":24,"h":47}
+},
+"Patrick_03.png":
+{
+	"frame": {"x":30,"y":0,"w":23,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":46},
+	"sourceSize": {"w":23,"h":46}
+},
+"Patrick_04.png":
+{
+	"frame": {"x":35,"y":46,"w":23,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":47},
+	"sourceSize": {"w":23,"h":47}
+},
+"Patrick_05.png":
+{
+	"frame": {"x":0,"y":189,"w":28,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":50},
+	"sourceSize": {"w":28,"h":50}
+},
+"Patrick_06.png":
+{
+	"frame": {"x":0,"y":140,"w":34,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":49},
+	"sourceSize": {"w":34,"h":49}
+},
+"Patrick_07.png":
+{
+	"frame": {"x":0,"y":46,"w":35,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":47},
+	"sourceSize": {"w":35,"h":47}
+},
+"Patrick_08.png":
+{
+	"frame": {"x":0,"y":0,"w":30,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":46},
+	"sourceSize": {"w":30,"h":46}
+},
+"Patrick_09.png":
+{
+	"frame": {"x":0,"y":93,"w":22,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":47},
+	"sourceSize": {"w":22,"h":47}
+},
+"Patrick_10.png":
+{
+	"frame": {"x":28,"y":189,"w":23,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":50},
+	"sourceSize": {"w":23,"h":50}
+}},
+"animations": {
+	"Patrick": ["Patrick_01.png","Patrick_02.png","Patrick_03.png","Patrick_04.png","Patrick_05.png","Patrick_06.png","Patrick_07.png","Patrick_08.png","Patrick_09.png","Patrick_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "patrick.png",
+	"format": "RGBA8888",
+	"size": {"w":59,"h":239},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f13abd385ae2854937c4d562ffe155cc:fd364a26b9c65556a63900b348fdf64a:53da14a8b7134cb0ef208e59f2804097$"
+}
+}
